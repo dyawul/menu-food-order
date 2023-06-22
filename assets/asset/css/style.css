@@ -1,0 +1,49 @@
+* 
+{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body 
+{
+	font-family: 'Ubuntu', 'sans-serif';
+	line-height: 1.42857143;
+	font-size: 14px;
+	padding: 56px 0 0 0;
+	margin: 0;
+}
+
+/*
+    Header
+*/
+
+.navbar
+{
+    padding: 15px 0 15px 114px;
+}
+
+.navbar-brand
+{
+    font-size: 24px;
+}
+
+.navbar-nav
+{
+    padding-right: 129px;
+}
+
+@media screen and (max-width: 991px) {
+	.navbar {padding:15px}
+  }
+  
+
+/*
+	main
+*/
+
+#content
+{
+	padding: 2%;
+}
+
